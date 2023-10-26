@@ -8,7 +8,7 @@ import { formatDate } from '../../../utils/format-date';
 export default function ListaDosAgendamentos() {
   const [agendamentos, setAgendamentos] = useState([])
   const fetchAgendamentos = async()=>{
-    const response = await fetch("api/agendamentos");
+    const response = await fetch("api/agendamentos",{cache:'no-store'});
     const data = await response.json();
 
     setAgendamentos(data);
