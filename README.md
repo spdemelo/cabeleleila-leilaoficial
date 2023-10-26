@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 👩🏻‍💻 Cabeleleila Leila | Teste DEV - Dsin.
 
-## Getting Started
+Este projeto foi elaborado para a empresa DSiN, como parte de um teste de habilidades em programação e desenvolvimento de um website, conforme as especificações do enunciado. O site Cabeleleila Leila é um sistema de agendamento de serviços no salão de beleza.
 
-First, run the development server:
+O sistema realiza um agendamento que abriga informações, como: nome, cpf, data, horário e procedimento e permite que o usuário verifique a lista de agendamentos do salão, assim como um vislumbre da estrutura interna do espaço e tabelas sobre os parâmetros de qualidade.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+O sistema permite a realização de agendamentos que são armazenados em nosso Banco de Dados. Além disso, oferece aos usuários a capacidade de consultar a lista de agendamentos do salão, bem como fornece uma visão parcial da infraestrutura interna do estabelecimento e disponibiliza tabelas que descrevem os parâmetros de qualidade.
+
+## ⚙️ COMO RODAR O PROJETO?
+**1° PASSO** certifique-se de ter o NodeJS instalado em seu sistema.
+
+**2° PASSO:** no diretório do projeto, instale as dependências necessárias executando o seguinte comando:
+
+```
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**3° PASSO:** após a conclusão da instalação, execute:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**4° PASSO:** por fim, acesse o endereço http://localhost:3000/
 
-## Learn More
+## ✔️ FUNCIONALIDADES:
 
-To learn more about Next.js, take a look at the following resources:
+**Funcionalidade 1:** O sistema possibilita que o usuário agende serviços, inserindo informações como nome, CPF, data, horário e tipo de procedimento.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Funcionalidade 2:** O sistema permite que o usuário visualize tanto os agendamentos feitos por ele mesmo quanto aqueles realizados por terceiros.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## ✔️ TÉCNICAS E TECNOLOGIAS UTILIZADAS:
+JavaScript, MongoDB, HTML, CSS, GitHub, Next.Js e React.
 
-## Deploy on Vercel
+## 📸 PRINT'S DAS TELAS:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![página1](/src/app/prints-das-telas/page%201.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![página2](/src/app/prints-das-telas/page%202.png)
+
+![página3](/src/app/prints-das-telas/page%203.png)

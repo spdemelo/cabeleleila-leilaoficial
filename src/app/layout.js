@@ -1,7 +1,6 @@
-import { Inter } from 'next/font/google'
+import { Cedarville_Cursive, Inter } from 'next/font/google'
 import './globals.css'
-
-const inter = Inter({ subsets: ['latin'] })
+import Link from "next/link";
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,7 +10,23 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <body>
+      <header>
+      <img src = "1 img.png" alt = "logotipo do site" width = "50"/>
+      <h3> 🪒 Cabeleleila Leila ✂️ </h3>
+      <p id = "slogan"> <strong> Cabeleireira Leila: </strong> venha fazer suas tinturas, seus cabelos, e até mesmo hidratar suas madeixas de cabelo <em> conosco! </em></p>
+      </header>
+      <nav>
+      <ul>
+        <li><Link href = "/">📌 Faça seu agendamento </Link></li>
+        <li><Link href = "nosso-espaco">🏢 Nosso espaço </Link></li>
+        <li><Link href = "desempenho-semanal">📊 Desempenho semanal </Link></li>
+        <li><Link href = "lista-dos-agendamentos">📋 Listagem dos agendamentos </Link></li>
+      </ul>
+      </nav>
+      
+      {children}
+    </body>
     </html>
   )
 }
