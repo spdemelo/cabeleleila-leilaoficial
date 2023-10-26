@@ -51,7 +51,7 @@ export default function Home() {
         <input type = "time" name = "usuario_horario" className = "campo_horario" required size = "46" onChange={(e)=> setHorario(e.target.value)}/>
     </div>
     <div>
-      <label for = "procedimento" required> Digite qual(is) seu(s) procedimento(s): </label>
+      <label for = "procedimento" required> 🔍 Digite qual(is) seu(s) procedimento(s): </label>
       <input type = "text" name = "usuario_procedimento" className = "campo_procedimento" required size = "46" onChange={(e)=> setProcedimento(e.target.value)}/>
     </div>
     <div className="button">
